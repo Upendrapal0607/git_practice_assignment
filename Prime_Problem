@@ -1,12 +1,10 @@
 function checkprime(num){
 let count=0;
-for(let i=0;i<num;i++){
-if(num%i){
+for(let i=0;i<=num;i++){
+if(num%i==0){
 count++}}
-if(count=2){
-return (" 19 is prime")}
+if(count==2){
+console.log(num,"is prime")}
 else {
-return "19 is not prime"}}
-let ans=checkprime(19)
-console.log(ans)
-
+console.log(num,"is not prime")}};
+checkprime(19)
