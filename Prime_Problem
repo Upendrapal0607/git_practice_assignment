@@ -1,3 +1,4 @@
+
 function checkprime(number){
 let factor=0;
 for(let i=0;i<=number;i++){
@@ -9,4 +10,6 @@ else {
 console.log(number, "is not prime")}}
 let ans=checkprime(19)
 console.log(ans)
+
+
 
